@@ -1,0 +1,9 @@
+# virtual environment folder and related files
+venv/
+.env
+
+# python generated binaries
+*__pycache__
+*__pycache__/
+
+todo.md

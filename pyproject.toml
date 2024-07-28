@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "termii-client"
+version = "1.0.0"
+description = "Python library for Termii API"
+readme = {file = "README.md", content-type = "text/markdown"}
+license = {file = "LICENSE"}
+keywords = ["python", "python3", "termii"]
+authors = [{name = "Gabriel Idenyi"}]
+maintainers = []
+requires-python = ">=3.8"
+dependencies = ["requests >= 2.31.0"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Web Environment",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+
+
+[project.urls]
+Homepage = "https://github.com/idenyigabriel/termii"
+Documentation = "https://github.com/idenyigabriel/termii/blob/main/README.md"
+Repository = "https://github.com/idenyigabriel/termii"
+Issues = "https://github.com/idenyigabriel/termii/issues"
+Changelog = "https://github.com/idenyigabriel/termii/blob/main/CHANGELOG.md"
