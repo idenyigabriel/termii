@@ -42,7 +42,7 @@ Available features include:
 To install this library (preferably in an active virtual environment) simply run
 
 ```sh
-pip3 install termii
+pip3 install termii_client
 ```
 
 <a name="initialization"></a>
